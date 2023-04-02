@@ -1,0 +1,59 @@
+.swiper {
+    width: 100%;
+    height: 100%;
+    position: relative;
+  }
+  
+  .swiper-slide {
+    background-position: center;
+    background-size: cover;
+    position: relative;
+.parent{
+   width: 100%;
+    position: absolute;
+        top: 272px;
+    h1{
+       
+        color: white;
+        line-height: 120px;
+        font-size: 90px;
+      margin: 0;
+        
+    }
+    p{
+        
+      color: white;
+        line-height: 25px;
+        margin-top: 30px;
+    }
+  button{
+    margin-top: 30px;
+    fill: #FFFFFF;
+    color: #FFFFFF;
+    background-color: #FFFFFF00;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #2EDAF1;
+    border-radius: 50px;
+    transition: .40s;
+    // box-shadow: 0px 0px 24px 0px rgba(45.99999999999999, 217.9999999999999, 240.99999999999997, 0.49) inset;
+    padding: 15px 32px 15px 32px;
+    a{
+        color: white !important;
+    font-size: 25px;
+    border-radius: 50px;
+    }
+  }
+   button:hover{
+    background: #2EDAF1;
+   
+   }
+   
+}
+  }
+  
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+  }
+  
