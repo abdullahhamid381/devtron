@@ -21,23 +21,25 @@ a {
 
 .navbar-parent {
     background: #021c24a1;
-border-bottom: 1px solid rgba(255, 255, 255, 0.18);
-position: absolute;
-top: 0;
-width: 100%;
-z-index: 99;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.18);
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: 99;
+
     .nav {
         display: flex;
         align-items: center;
         justify-content: space-between;
         height: 10vh;
-      width: 80%;
-      margin: auto;
+        width: 80%;
+        margin: auto;
     }
 
     .nav__brand {
         text-transform: uppercase;
-        h1{
+
+        h1 {
             font-size: 35px;
         }
     }
@@ -47,7 +49,8 @@ z-index: 99;
         align-items: center;
         justify-content: space-around;
         gap: 3rem;
-        li{
+
+        li {
             font-weight: bolder;
         }
     }
@@ -76,7 +79,7 @@ z-index: 99;
             right: 0;
             height: 93vh;
             width: 50vw;
-      background: #021c24a1;
+            background: #021c24a1;
             flex-direction: column;
             transform: translateX(100%);
             transition: 0.5s ease-in;
