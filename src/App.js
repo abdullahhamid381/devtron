@@ -2,6 +2,7 @@ import React from 'react'
 import Navbar from './Components/Navbar'
 import Slider from './Components/Reuseable/Slider'
 import Reason from './Components/Reason'
+import Counterup from './Components/Counterup'
 
 const App = () => {
   return (
@@ -9,6 +10,7 @@ const App = () => {
       <Navbar/>
     <Slider/>
     <Reason/>
+    <Counterup start={0} end={500}/>
     </div>
   )
 }
