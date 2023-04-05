@@ -1,0 +1,36 @@
+.complete-project-parent{
+    width: 80%;
+    margin: auto;
+    border: 1px solid  rgb(255, 255, 255);
+    // background: #01141D;
+    box-shadow: 0px 0px 5px 0px white;
+    border-radius: 8px;
+    padding: 60px 60px;
+
+  .text{
+    text-align: center;
+    h1{
+        color: white;
+        font-size: 38px;
+        b{
+        color: #2EDAF1;;
+        }
+       
+    }
+    p{
+       color: rgb(128, 128, 128);
+      width: 60%;
+      margin: auto;
+    }
+  }  
+  .work-images{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 80px;
+    padding-top: 80px;
+    img{
+        width: 100%;
+        border-radius: 8px;
+    }
+  }
+}
