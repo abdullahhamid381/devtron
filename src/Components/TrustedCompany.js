@@ -18,12 +18,12 @@ const TrustedCompany = () => {
 
             <div className='detail'>
                 <div className='img-div'>
-                    <img src={'./images/16.jpg'} alt="" />
+                    <img src={'./images/17.jpg'} alt="" />
                 </div>
                 <div className='title'>
                     <h1>
-                        Transform Your Business <br />
-                        <b>With AI Technology</b>
+                        Transform Your Business <br /> With 
+                        <b> AI Technology</b>
                     </h1>
 
                     <div className='para'>
@@ -35,7 +35,7 @@ const TrustedCompany = () => {
                             </p>
                         </div>
                         <div className='img-sub'>
-                            <img src={'./images/17.jpg'} alt="" />
+                            <img src={'./images/16.jpg'} alt="" />
                         </div>
                     </div>
                 </div>

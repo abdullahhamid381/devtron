@@ -30,7 +30,7 @@ body {
         gap: 100px;
         align-items: center;
         background: url("D:\Devtron\Devtron Site\devtron\public\images\4.png");
-
+padding-top: 80px;
         .counter-detail {
             padding: 160px 0;
 
@@ -75,8 +75,8 @@ body {
             }
 
             .video {
-                width: 600px;
-                height: 240px;
+                width: 523px;
+                height: 400px;
                 background: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url(https://images.pexels.com/photos/697244/pexels-photo-697244.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
                 background-size: cover;
                 background-repeat: no-repeat;
@@ -167,7 +167,7 @@ body {
         width: 80%;
         margin: auto;
         place-items: center;
-        padding-bottom: 180px;
+        padding: 100px 0  180px 0;
         border-bottom: 1px solid rgba(255, 255, 255, 0.119);
 
         .cards {
