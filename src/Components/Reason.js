@@ -9,11 +9,7 @@ const Reason = () => {
     return (
         <Fragment>
             <div className='reason-parent'>
-                <div>
-                    <center><h1> Why Choose <b style={{ color: '#2EDAF1' }}> Devtron  ?</b></h1>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor <br /> incididunt ut labore et dolore magna aliqua enim ad minim veniam</p>
-                    </center>
-                </div>
+               
 
                 {/* CARDS SECTION START HERE */}
 
