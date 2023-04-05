@@ -3,6 +3,7 @@ import Navbar from './Components/Navbar'
 import Slider from './Components/Reuseable/Slider'
 
 import Counterup from './Components/Counterup'
+import TrustedCompany from './Components/TrustedCompany'
 
 const App = () => {
   return (
@@ -11,6 +12,7 @@ const App = () => {
     <Slider/>
 
     <Counterup start={0} end={500} starttwo={0} endtwo={15}/>
+    <TrustedCompany/>
     </div>
   )
 }

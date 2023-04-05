@@ -120,10 +120,10 @@ const Counterup = ({ start = 0, end, starttwo = 0, endtwo, }) => {
                                 <div>
                                     <img src={map.img} alt="" width={'30%'} />
                                     <h3>
-                                     {map.h3}
+                                        {map.h3}
                                     </h3>
                                     <p>
-{map.p}
+                                        {map.p}
                                     </p>
 
                                     <span><AiOutlineArrowRight /></span>

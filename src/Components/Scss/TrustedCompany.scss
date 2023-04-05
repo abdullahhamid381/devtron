@@ -1,0 +1,22 @@
+.trusted-parent{
+    width: 80%;
+    margin: auto;
+    padding-top: 50px;
+    .company-logo{
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        .text{
+            h3{
+                color: #2EDAF1;
+                b{
+color: white;
+                }
+            }
+        }
+        img{
+            width: 10% !important;
+            height: auto;
+        }
+    }
+}
