@@ -1,3 +1,4 @@
+import {AiOutlineArrowRight} from 'react-icons/ai'
 export const Reasondata=[
     {
         h1:'Easy Integration',
@@ -43,3 +44,22 @@ export const cardservices=[
         icons:'',
     },
 ]
+
+
+// PROJECTS DONE
+
+export const workproject=[
+    {
+        img:'./images/16.jpg',
+        h3:'Web Development',
+        p:'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.',
+        h5:'View Details',
+    },
+    {
+        img:'./images/17.jpg',
+        h3:'Application Development',
+        p:'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.',
+        h5:'View Details'
+    },
+]
+

@@ -1,36 +1,105 @@
-.complete-project-parent{
-    width: 80%;
-    margin: auto;
-    border: 1px solid  rgb(255, 255, 255);
-    // background: #01141D;
-    box-shadow: 0px 0px 5px 0px white;
-    border-radius: 8px;
-    padding: 60px 60px;
+.complete-project-parent {
+  width: 80%;
+  margin: auto;
+  border: 1px solid rgb(255, 255, 255);
+  // background: #01141D;
+  box-shadow: 0px 0px 5px 0px white;
+  border-radius: 8px;
+  padding: 60px 60px 200px 60px;
+margin-bottom: 180px;
+  height: auto;
 
-  .text{
+  .text {
     text-align: center;
-    h1{
-        color: white;
-        font-size: 38px;
-        b{
-        color: #2EDAF1;;
-        }
-       
+
+    h1 {
+      color: white;
+      font-size: 38px;
+
+      b {
+        color: #2EDAF1;
+        ;
+      }
+
     }
-    p{
-       color: rgb(128, 128, 128);
+
+    p {
+      color: rgb(128, 128, 128);
       width: 60%;
       margin: auto;
     }
-  }  
-  .work-images{
+  }
+
+  .work-images {
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 80px;
     padding-top: 80px;
-    img{
-        width: 100%;
-        border-radius: 8px;
+
+    img {
+      border-radius: 10px;
+      width: 100%;
+    }
+
+    .work {
+
+      position: relative;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+
+      .details {
+        background: #01141D;
+        width: 80%;
+        margin: auto;
+        text-align: center;
+        padding: 40px;
+        position: absolute;
+        top: 280px;
+        border: 1px solid #2EDAF1;
+        ;
+        border-radius: 10px;
+
+        h3 {
+          color: white;
+          font-size: 22px;
+        }
+
+        p {
+          color: white; 
+          color: rgb(128, 128, 128);
+          font-size: 16px;
+        }
+
+        .icon-deiv {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          cursor: pointer;
+          
+
+          span {
+            color: white;
+            align-items: center;
+            transition: .40s;
+          }
+
+          .icons {
+            font-size: 18px;
+            padding-left: 5px !important;
+            transition: .40s;
+          }
+        }
+        .icon-deiv:hover{
+          span{
+            color: #2EDAF1;
+          }
+          .icons{
+            color: #2EDAF1;
+          }
+        }
+
+      }
     }
   }
 }
