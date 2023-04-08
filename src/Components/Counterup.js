@@ -1,6 +1,6 @@
 import React, { useState, useEffect, useRef } from 'react'
 import { FaPlay } from 'react-icons/fa'
-import { AiOutlineArrowRight } from 'react-icons/ai'
+import { BsArrowRight } from 'react-icons/bs'
 import './Scss/Counterup.scss'
 import { cardservices } from './Data/Data'
 
@@ -126,7 +126,7 @@ const Counterup = ({ start = 0, end, starttwo = 0, endtwo, }) => {
                                         {map.p}
                                     </p>
 
-                                    <span><AiOutlineArrowRight /></span>
+                                    <span><BsArrowRight /></span>
                                 </div>
                             </div>
                         )
