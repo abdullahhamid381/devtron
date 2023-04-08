@@ -1,4 +1,5 @@
 import {AiOutlineArrowRight} from 'react-icons/ai'
+import { ImQuotesLeft } from 'react-icons/im'
 export const Reasondata=[
     {
         h1:'Easy Integration',
@@ -63,3 +64,48 @@ export const workproject=[
     },
 ]
 
+// REVieW SECTION STArT HERE
+
+export const reviewsection=[
+    {
+        icons:<ImQuotesLeft/>,
+        reviewdetail:'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
+        imgreviewer:'./images/19.jpg',
+        namereviewer:'Judy Coleman ',
+        servicereviewer:'Eline Claes Social Media Specialist',
+
+    },
+    {
+        icons:<ImQuotesLeft/>,
+        reviewdetail:'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
+        imgreviewer:'./images/19.jpg',
+        namereviewer:'Judy Coleman ',
+        servicereviewer:'Eline Claes Social Media Specialist',
+
+    },
+    {
+        icons:<ImQuotesLeft/>,
+        reviewdetail:'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
+        imgreviewer:'./images/19.jpg',
+        namereviewer:'Judy Coleman ',
+        servicereviewer:'Eline Claes Social Media Specialist',
+
+    },
+    {
+        icons:<ImQuotesLeft/>,
+        reviewdetail:'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
+        imgreviewer:'./images/19.jpg',
+        namereviewer:'Judy Coleman ',
+        servicereviewer:'Eline Claes Social Media Specialist',
+
+    },
+    {
+        icons:<ImQuotesLeft/>,
+        reviewdetail:'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
+        imgreviewer:'./images/19.jpg',
+        namereviewer:'Judy Coleman ',
+        servicereviewer:'Eline Claes Social Media Specialist',
+
+    },
+   
+]
