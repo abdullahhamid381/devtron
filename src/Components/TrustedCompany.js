@@ -2,7 +2,8 @@ import React from 'react'
 import './/Scss/TrustedCompany.scss'
 const TrustedCompany = () => {
     return (
-        <div className='trusted-parent'>
+       <div className='trusted-main-parent'>
+         <div className='trusted-parent'>
             <div className='company-logo'>
                 <div className='text'>
                     <h3>
@@ -41,6 +42,7 @@ const TrustedCompany = () => {
                 </div>
             </div>
         </div>
+       </div>
     )
 }
 

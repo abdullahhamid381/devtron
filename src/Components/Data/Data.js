@@ -109,3 +109,11 @@ export const reviewsection=[
     },
    
 ]
+
+// BEST SERVICES
+
+export const bestservices=[
+    {
+        img
+    }
+]

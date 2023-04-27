@@ -1,96 +1,108 @@
-.trusted-parent {
-    width: 80%;
-    margin: auto;
-    padding-top: 50px;
+.trusted-main-parent{
+    background: #000C14;
+    .trusted-parent {
+        width: 70%;
+        margin: auto;
+        padding-top: 50px;
 
-    .company-logo {
-        display: flex;
-        justify-content: space-between;
-        flex-wrap: wrap;
-
-        .text {
-            h3 {
-                color: #2EDAF1;
-
-                b {
-                    color: white;
+        .company-logo {
+          display: grid;
+          grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+          align-items: center;
+          margin: auto;
+    
+            .text {
+                h3 {
+                    color: #2EDAF1;
+    
+                    b {
+                        color: white;
+                    }
                 }
             }
-        }
-
-        img {
-            width: 10% !important;
-            height: auto;
-        }
-    }
-
-    .detail {
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        gap: 80px;
-        place-items: center;
-        padding: 100px 0 180px 0;
-
-        .img-div {
+    
             img {
-                width: 100%;
-                border-radius: 8px;
+                width: 70% !important;
+                height: auto;
+                opacity: 0.3;
+                transition: .45s;
+            }
+            img:hover {
+             
+                opacity: 100%;
+                margin-top: -20px;
             }
         }
-
-        .title {
-            h1 {
-                color: white;
-                margin: 0;
-                padding: 0;
-                font-size: 38px;
-
-            }
-
-            b {
-                color: #2EDAF1;
-            }
-
-            .para {
-                display: grid;
-                grid-template-columns: 2fr 1fr;
-                gap: 20px;
-
-                .para-button {
-                    p {
-                        color: rgb(128, 128, 128);
-                        font-size: 16px;
-                        margin: 30px 0;
-                    }
-                    button{
-                        margin-top: 30px;
-                        fill: #FFFFFF;
-                        color: #FFFFFF;
-                        background-color: #FFFFFF00;
-                        border-style: solid;
-                        border-width: 1px;
-                        border-color: #2EDAF1;
-                        border-radius: 50px;
-                        transition: .40s;
-                        // box-shadow: 0px 0px 24px 0px rgba(45.99999999999999, 217.9999999999999, 240.99999999999997, 0.49) inset;
-                        padding: 15px 32px 15px 32px;
-                        cursor: pointer;
-                    }
-                    button:hover{
-                        background: #2EDAF1;
-                       
-                       }
-                }
-            }
-
-            .img-sub {
+    
+        .detail {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 80px;
+            place-items: center;
+            padding: 100px 0 180px 0;
+    
+            .img-div {
                 img {
-                    width: 130%;
-                    margin-top: 40px;
+                    width: 100%;
                     border-radius: 8px;
                 }
             }
+    
+            .title {
+                h1 {
+                    color: white;
+                    margin: 0;
+                    padding: 0;
+                    font-size: 38px;
+    
+                }
+    
+                b {
+                    color: #2EDAF1;
+                }
+    
+                .para {
+                    display: grid;
+                    grid-template-columns: 2fr 1fr;
+                    gap: 20px;
+    
+                    .para-button {
+                        p {
+                            color: rgb(128, 128, 128);
+                            font-size: 16px;
+                            margin: 30px 0;
+                            font-family: sans-serif;
+                        }
+                        button{
+                            margin-top: 30px;
+                            fill: #FFFFFF;
+                            color: #FFFFFF;
+                            background-color: #FFFFFF00;
+                            border-style: solid;
+                            border-width: 1px;
+                            border-color: #2EDAF1;
+                            border-radius: 50px;
+                            transition: .40s;
+                            // box-shadow: 0px 0px 24px 0px rgba(45.99999999999999, 217.9999999999999, 240.99999999999997, 0.49) inset;
+                            padding: 15px 32px 15px 32px;
+                            cursor: pointer;
+                        }
+                        button:hover{
+                            background: #2EDAF1;
+                           
+                           }
+                    }
+                }
+    
+                .img-sub {
+                    img {
+                        width: 130%;
+                        margin-top: 40px;
+                        border-radius: 8px;
+                    }
+                }
+            }
+    
         }
-
     }
 }

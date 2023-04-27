@@ -1,9 +1,10 @@
 body {
-    background: #010A0A;
+  
 }
 
 .reason-parent {
-
+background: #000C14;
+margin-top: -40px;
     div {
         h1 {
             font-weight: bolder;
@@ -14,8 +15,9 @@ body {
         }
 
         p {
-            color: gray;
+            color: whitesmoke;
             line-height: 25px;
+            font-family: sans-serif;
 
         }
 
@@ -164,19 +166,21 @@ padding-top: 80px;
     .cards-parent {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr 1fr;
-        gap: 80px;
-        width: 80%;
+        gap: 60px;
+        width: 70%;
         margin: auto;
         place-items: center;
-        padding: 100px 0  180px 0;
-        border-bottom: 1px solid rgba(255, 255, 255, 0.119);
+        padding: 60px 0  180px 0;
+        border-bottom: 1px solid rgba(255, 255, 255, 0.141);
 
         .cards {
             width: 100%;
-            border: 2px solid #ffffff;
+            border: 1px solid rgba(255, 255, 255, 0.141);
             padding: 30px 20px;
-            background: black;
+            background: linear-gradient(45deg,#01141D,#01141D,#01141D,#002934);
             border-radius: 8px;
+            cursor: pointer;
+            transition: 1s !important;
 
             h3 {
                 color: white;
@@ -200,6 +204,9 @@ padding-top: 80px;
             span:hover {
                 color: #2EDAF1;
             }
+        }
+        .cards:hover{
+            background: linear-gradient(45deg,#01141D,#01141D,#014b5f);
         }
     }
 }

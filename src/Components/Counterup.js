@@ -71,13 +71,13 @@ const Counterup = ({ start = 0, end, starttwo = 0, endtwo, }) => {
 
             <div>
                 <center><h1> Why Choose <b style={{ color: '#2EDAF1' }}> Devtron  ?</b></h1>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor <br /> incididunt ut labore et dolore magna aliqua enim ad minim veniam</p>
+                    <p className='reason-detail-para'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor <br /> incididunt ut labore et dolore magna aliqua enim ad minim veniam</p>
                 </center>
             </div>
 
             {/* COUNTER DETAiL SECtiON StArt\ HERE */}
 
-            <div className='counter-parent'>
+            {/* <div className='counter-parent'>
 
                 <div className='counter-detail'>
                     <p className='welcome'>Welcome to Devtron</p>
@@ -90,7 +90,7 @@ const Counterup = ({ start = 0, end, starttwo = 0, endtwo, }) => {
                     </p>
                 </div>
 
-                {/* COUNTER NUMBER SECTION START HERE */}
+                COUNTER NUMBER SECTION START HERE
 
                 <div className='counter-number'>
                     <div>
@@ -110,7 +110,7 @@ const Counterup = ({ start = 0, end, starttwo = 0, endtwo, }) => {
                     </div>
                 </div>
 
-            </div>
+            </div> */}
 
             <div className='cards-parent'>
                 {
