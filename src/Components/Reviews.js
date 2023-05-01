@@ -23,9 +23,9 @@ const Reviews = () => {
     <h1>
         What <b>People Say</b> About <br /> Our AI Service & Technology
     </h1>
-    <p>
+    {/* <p>
         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-    </p>
+    </p> */}
 </div>
 
 
