@@ -1,113 +1,126 @@
-.complete-project-parent {
-  width: 80%;
-  margin: auto;
-  border: 1px solid rgb(255, 255, 255);
-  background: linear-gradient(328deg, #01141D, #2edaf126);
-  transition: .40s !important;
-  box-shadow: 0px 0px 5px 0px white;
-  border-radius: 8px;
-  padding: 60px 60px 200px 60px;
-  margin-bottom: 180px;
-  height: auto;
+h1{
+  letter-spacing: 4px;
+}
+h3{
+  letter-spacing: 4px;
+}
 
-  .text {
-    text-align: center;
+.main-parent-completedprojects{
+  background: #000C14;
+  padding-top: 180px;
+  padding-bottom: 180px;
+  .complete-project-parent {
+    width: 70%;
+    margin: auto;
+    border: 1px solid rgba(255, 255, 255, 0.141);
+    background-color: transparent;
+    background-image: radial-gradient(at center center, #00e1ff24 0%, #01141d 70%);
+    transition: .40s !important;
+  
+    border-radius: 8px;
+    padding: 60px 60px 200px 60px;
 
-    h1 {
-      color: white;
-      font-size: 38px;
-
-      b {
-        color: #2EDAF1;
-        ;
+    height: auto;
+  
+    .text {
+      text-align: center;
+  
+      h1 {
+        color: white;
+        font-size: 38px;
+  
+        b {
+          color: #00FBF4;
+          ;
+        }
+  
       }
-
-    }
-
-    p {
-      color: rgb(128, 128, 128);
-      width: 60%;
-      margin: auto;
-    }
-  }
-
-  .work-images {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 80px;
-    padding-top: 80px;
-
-    img {
-      border-radius: 10px;
-      width: 100%;
-    }
-
-    .work {
-
-      position: relative;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-
-      .details {
-        background: #01141D;
-        width: 80%;
+  
+      p {
+        color: rgb(128, 128, 128);
+        width: 60%;
         margin: auto;
-        text-align: center;
-        padding: 40px;
-        position: absolute;
-        top: 280px;
-        border: 1px solid #2EDAF1;
-        ;
+        font-family: sans-serif;
+      }
+    }
+  
+    .work-images {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 80px;
+      padding-top: 80px;
+  
+      img {
         border-radius: 10px;
-
-        h3 {
-          color: white;
-          font-size: 22px;
-        }
-
-        p {
-          color: white;
-          color: rgb(128, 128, 128);
-          font-size: 16px;
-        }
-
-        .icon-deiv {
-          display: flex;
-          justify-content: center;
-          align-items: center;
-          cursor: pointer;
-
-
-          span {
-            color: #2EDAF1;
+        width: 100%;
+      }
+  
+      .work {
+  
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+  
+        .details {
+          background: #01141D;
+          width: 80%;
+          margin: auto;
+          text-align: center;
+          padding: 40px;
+          position: absolute;
+          top: 280px;
+          border: 1px solid rgba(255, 255, 255, 0.141);
+          ;
+          border-radius: 10px;
+  
+          h3 {
+            color: white;
+            font-size: 22px;
+          }
+  
+          p {
+            color: white;
+            color: rgb(128, 128, 128);
+            font-size: 16px;
+            font-family: sans-serif;
+          }
+  
+          .icon-deiv {
+            display: flex;
+            justify-content: center;
             align-items: center;
-            transition: .40s;
+            cursor: pointer;
+  
+  
+            span {
+              color: #00FBF4;
+              align-items: center;
+              transition: .40s;
+            }
+  
+            .icons {
+              font-size: 18px;
+              padding-left: 5px !important;
+              transition: .40s;
+              color: #2EDAF1;
+            }
           }
-
-          .icons {
-            font-size: 18px;
-            padding-left: 5px !important;
-            transition: .40s;
-            color: #2EDAF1;
+  
+          .icon-deiv:hover {
+            span {
+              color: #ffffff;
+            }
+  
+            .icons {
+              color: #ffffff;
+            }
           }
+  
         }
-
-        .icon-deiv:hover {
-          span {
-            color: #ffffff;
-          }
-
-          .icons {
-            color: #ffffff;
-          }
-        }
-
       }
     }
   }
 }
 
-.complete-project-parent:hover {
-  background: linear-gradient(160deg, #01141D, #2edaf126);
-}
+

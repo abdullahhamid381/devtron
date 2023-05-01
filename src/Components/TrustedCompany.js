@@ -36,7 +36,7 @@ const TrustedCompany = () => {
                             </p>
                         </div>
                         <div className='img-sub'>
-                            <img src={'./images/16.jpg'} alt="" />
+                            {/* <img src={'./images/16.jpg'} alt="" /> */}
                         </div>
                     </div>
                 </div>

@@ -114,6 +114,19 @@ export const reviewsection=[
 
 export const bestservices=[
     {
-        img
-    }
+        img:'images/20.jpg',
+        p:'hellooopsdksfknsfnskdfosmn ohfoisfmsniofsiosfn',
+    },
+    {
+        img:'images/20.jpg',
+        p:'hellooopsdksfknsfnskdfosmn ohfoisfmsniofsiosfn',
+    },
+    {
+        img:'images/20.jpg',
+        p:'hellooopsdksfknsfnskdfosmn ohfoisfmsniofsiosfn',
+    },
+    {
+        img:'images/20.jpg',
+        p:'hellooopsdksfknsfnskdfosmn ohfoisfmsniofsiosfn',
+    },
 ]

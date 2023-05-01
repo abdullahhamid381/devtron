@@ -4,7 +4,8 @@ import { workproject } from './Data/Data'
 import {AiOutlineArrowRight} from 'react-icons/ai'
 const CompletedProject = () => {
     return (
-        <div className='complete-project-parent'>
+     <div className='main-parent-completedprojects'>
+           <div className='complete-project-parent'>
             <div className='text'>
                 <h1>Take A Look At Our <b>Completed Projects</b></h1>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
@@ -33,7 +34,11 @@ const CompletedProject = () => {
              }
            
             </div>
+
+            
         </div>
+        
+     </div>
     )
 }
 
