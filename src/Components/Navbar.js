@@ -46,6 +46,7 @@ function Navbar() {
             Contact
           </a>
         </li>
+        <button>Get Started</button>
       </ul>
       <div onClick={navToggle} className={icon}>
         <div className="line1"></div>
