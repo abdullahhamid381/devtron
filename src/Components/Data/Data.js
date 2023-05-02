@@ -130,3 +130,18 @@ export const bestservices=[
         p:'hellooopsdksfknsfnskdfosmn ohfoisfmsniofsiosfn',
     },
 ]
+export const blog=[
+    {
+        img:'images/21.jpg',
+        p:'hellooopsdksfknsfnskdfosmn ohfoisfmsniofsiosfn',
+    },
+    {
+        img:'images/22.jpg',
+        p:'hellooopsdksfknsfnskdfosmn ohfoisfmsniofsiosfn',
+    },
+    {
+        img:'images/23.jpg',
+        p:'hellooopsdksfknsfnskdfosmn ohfoisfmsniofsiosfn',
+    },
+   
+]

@@ -54,7 +54,7 @@ const History = ({ start = 0, end, starttwo = 0, endtwo, startthree = 0, endthre
             setValuetwo(resulttwo);
             rafc.current = resulttwo;
         }
-        setTimeout(Counttwo, 200)
+        setTimeout(Counttwo, 50)
     }
     useEffect(() => {
         let isMounted = true;
@@ -80,7 +80,7 @@ const History = ({ start = 0, end, starttwo = 0, endtwo, startthree = 0, endthre
             setValuethree(resultthree);
             rafc.current = resultthree;
         }
-        setTimeout(Countthree, 20)
+        setTimeout(Countthree, 500)
     }
     useEffect(() => {
         let isMounted = true;
@@ -106,7 +106,7 @@ const History = ({ start = 0, end, starttwo = 0, endtwo, startthree = 0, endthre
             setValuefour(resultfour);
             rafc.current = resultfour;
         }
-        setTimeout(Countfour, 20)
+        setTimeout(Countfour, 150)
     }
     useEffect(() => {
         let isMounted = true;
@@ -144,7 +144,7 @@ const History = ({ start = 0, end, starttwo = 0, endtwo, startthree = 0, endthre
                 </div>
 
 
-                
+
                 <div className='counter-item' style={{ borderRight: '1px solid rgba(255, 255, 255, 0.141)' }}>
                     <span style={{}}>{valuethree} + </span>
                     <p>Years of Experiences</p>
