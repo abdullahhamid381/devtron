@@ -18,7 +18,7 @@ function Navbar() {
    <div className="navbar-parent">
      <nav className="nav">
       <a href="#" className="nav__brand">
-       <h1>Devtron</h1>
+       <img src="./images/logo.png" alt="" width={'80%'} className="logo" />
       </a>
       <ul className={active}>
         <li className="nav__item">

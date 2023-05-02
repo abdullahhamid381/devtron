@@ -4,14 +4,15 @@ body {
 
 .reason-parent {
 background: #000C14;
-margin-top: -40px;
+padding-top: 160px;
+
     div {
         h1 {
             font-weight: bolder;
             color: white;
             word-spacing: 8px;
             font-size: 45px;
-            padding: 60px 0 0 0;
+           
         }
 
         p {
@@ -26,13 +27,13 @@ margin-top: -40px;
     .counter-parent {
         display: grid;
         grid-template-columns: 1fr 1fr;
-        width: 80%;
+        width: 70%;
         margin: auto;
         place-items: center;
         gap: 100px;
         align-items: center;
         background: url("D:\Devtron\Devtron Site\devtron\public\images\4.png");
-padding-top: 80px;
+padding-top: 180px;
         .counter-detail {
             padding: 160px 0;
 
@@ -77,15 +78,22 @@ padding-top: 80px;
             }
 
             .video {
-                width: 523px;
-                height: 400px;
-                background: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url(https://dkkit.rometheme.pro/ditech/wp-content/uploads/sites/59/2022/08/serious-man-in-cap-working-in-database-center-5V4YFTJ.jpg);
-                background-size: cover;
-                background-repeat: no-repeat;
-                display: flex;
-                align-items: center;
-                justify-content: center;
-                border-radius: 8px;
+                // width: 523px;
+                // height: 400px;
+                // background: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url(https://dkkit.rometheme.pro/ditech/wp-content/uploads/sites/59/2022/08/serious-man-in-cap-working-in-database-center-5V4YFTJ.jpg);
+                // background-size: cover;
+                // background-repeat: no-repeat;
+                // display: flex;
+                // align-items: center;
+                // justify-content: center;
+                // border-radius: 8px;
+                // border: 1px solid rgba(255, 255, 255, 0.141);
+                
+
+                img{
+                    width: 100%;
+                    border-radius: 8px;
+                }
             }
 
             .play-btn {
@@ -170,7 +178,7 @@ padding-top: 80px;
         width: 70%;
         margin: auto;
         place-items: center;
-        padding: 60px 0  180px 0;
+        padding: 180px 0  180px 0;
         border-bottom: 1px solid rgba(255, 255, 255, 0.141);
 
         .cards {

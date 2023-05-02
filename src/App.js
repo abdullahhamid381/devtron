@@ -11,8 +11,8 @@ import BestService from './Components/BestService'
 const App = () => {
   return (
     <div>
-      {/* <Navbar/>
-    <Slider/> */}
+      <Navbar/>
+    <Slider/>
 
     <Counterup start={0} end={500} starttwo={0} endtwo={15}/>
      <TrustedCompany/>

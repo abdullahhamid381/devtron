@@ -77,10 +77,10 @@ const Counterup = ({ start = 0, end, starttwo = 0, endtwo, }) => {
 
             {/* COUNTER DETAiL SECtiON StArt\ HERE */}
 
-            {/* <div className='counter-parent'>
+             <div className='counter-parent'>
 
                 <div className='counter-detail'>
-                    <p className='welcome'>Welcome to Devtron</p>
+                    {/* <p className='welcome'>Welcome to Devtron</p> */}
                     <h1>
                         Let Us Be Your <br /> <b style={{ color: "#2EDAF1", marginTop: '10px' }}>IT Partner</b>
                     </h1>
@@ -90,27 +90,29 @@ const Counterup = ({ start = 0, end, starttwo = 0, endtwo, }) => {
                     </p>
                 </div>
 
-                COUNTER NUMBER SECTION START HERE
+                {/* COUNTER NUMBER SECTION START HERE */}
 
                 <div className='counter-number'>
                     <div>
                         <center>
                             <span style={{}}>{value} +  </span>
-                            <p>Years of Experiences</p>
+                            <p>Project Completed</p>
                         </center>
                         <center>
                             <span style={{}}>{valuetwo} + </span>
-                            <p>Project Completed</p>
+                            <p>Years of Experiences</p>
                         </center>
                     </div>
                     <div class="video">
-                        <div class="play-btn">
+                        {/* <div class="play-btn">
                             <FaPlay />
-                        </div>
+                        </div> */}
+                        <img src="./images/17.jpg" alt="" />
+
                     </div>
                 </div>
 
-            </div> */}
+            </div> 
 
             <div className='cards-parent'>
                 {
