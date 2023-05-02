@@ -1,6 +1,6 @@
 import React, { useEffect, useState, useRef } from 'react'
 import './Scss/History.scss'
-const History = ({ start = 0, end, starttwo = 0, endtwo,startthree = 0, endthree, }) => {
+const History = ({ start = 0, end, starttwo = 0, endtwo, startthree = 0, endthree, startfour = 0, endfour, }) => {
 
     const [valuetwo, setValuetwo] = useState(null)
     const [valuethree, setValuethree] = useState(null)
@@ -10,7 +10,10 @@ const History = ({ start = 0, end, starttwo = 0, endtwo,startthree = 0, endthree
 
     // COUNTERUP LOgiC StARt HERE
 
-// FIRST HERE
+
+
+
+    // -------------------------------------------------------// FIRST HERE-------------------------------------------------------------
 
     const [value, setValue] = useState(null)
     const ref = useRef(start)
@@ -36,7 +39,9 @@ const History = ({ start = 0, end, starttwo = 0, endtwo,startthree = 0, endthree
         [end]
     );
 
-    // SECOND START <HERE></HERE>
+
+
+    //----------------------------------------------------- SECOND START <HERE></HERE>---------------------------------------------------------
 
     const rafc = useRef(starttwo)
 
@@ -61,10 +66,10 @@ const History = ({ start = 0, end, starttwo = 0, endtwo,startthree = 0, endthree
         [endtwo]
     );
 
-    // THREE START |FROM HERE
+    //------------------------------------ THREE START |FROM HERE ------------------------------------
 
 
- const three = useRef(startthree)
+    const three = useRef(startthree)
 
     const counterthree = endthree / 200;
 
@@ -87,6 +92,32 @@ const History = ({ start = 0, end, starttwo = 0, endtwo,startthree = 0, endthree
         [endthree]
     );
 
+    //------------------------------------ Four START |FROM HERE ------------------------------------
+
+
+    const four = useRef(startfour)
+
+    const counterfour = endfour / 200;
+
+    const Countfour = () => {
+        if (four.current < endfour) {
+            const resultfour = Math.ceil(rafc.current + counterfour);
+            if (resultfour > endfour) return setValuefour(endfour);
+            setValuefour(resultfour);
+            rafc.current = resultfour;
+        }
+        setTimeout(Countfour, 20)
+    }
+    useEffect(() => {
+        let isMounted = true;
+        if (isMounted) {
+            Countfour();
+        }
+        return () => (isMounted = false);
+    },
+        [endfour]
+    );
+
 
 
     // COUNTERUP LOgiC END HERE
@@ -94,22 +125,36 @@ const History = ({ start = 0, end, starttwo = 0, endtwo,startthree = 0, endthree
 
     return (
         <div className='counter-number'>
-            <div>
+            <div className='counter-number-parent-sub'>
 
-                <div>
-                    <span style={{}}>{value} +  </span>
-                    <p>Project Completed</p>
+                <div className='counter-item' style={{ borderRight: '1px solid rgba(255, 255, 255, 0.141)' }}>
+                    <div>
+                        <img src="" alt="" />
+                    </div>
+                    <div>
+                        <span style={{}}>{value} +  </span>
+                        <p>Project Completed</p>
+                    </div>
                 </div>
 
 
-                <div>
+                <div className='counter-item' style={{ borderRight: '1px solid rgba(255, 255, 255, 0.141)' }}>
                     <span style={{}}>{valuetwo} + </span>
                     <p>Years of Experiences</p>
                 </div>
-                <div>
+
+
+                
+                <div className='counter-item' style={{ borderRight: '1px solid rgba(255, 255, 255, 0.141)' }}>
                     <span style={{}}>{valuethree} + </span>
                     <p>Years of Experiences</p>
                 </div>
+
+                <div className='counter-item'>
+                    <span style={{}}>{valuefour} + </span>
+                    <p>Years of Experiences</p>
+                </div>
+
 
             </div>
 

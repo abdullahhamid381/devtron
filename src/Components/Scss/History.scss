@@ -1,0 +1,22 @@
+.counter-number{
+    background: #000C14;
+    .counter-number-parent-sub{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        width: 70%;
+        margin: auto;
+        place-items: center;
+        padding-top: 40px;
+        .counter-item{
+           padding: 0 40px;
+            span{
+                color: white;
+                font-size: 32px;
+            }
+            p{
+                color:#555D62;
+                margin: 0;
+            }
+        }
+    }
+}
