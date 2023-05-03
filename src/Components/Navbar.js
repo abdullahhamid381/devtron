@@ -22,7 +22,7 @@ function Navbar() {
       </a>
       <ul className={active}>
         <li className="nav__item">
-          <a href="#" className="nav__link">
+          <a href="#" className="nav__link active">
             Home
           </a>
         </li>
@@ -46,7 +46,7 @@ function Navbar() {
             Contact
           </a>
         </li>
-        <button>Get Started</button>
+        {/* <button>Get Started</button> */}
       </ul>
       <div onClick={navToggle} className={icon}>
         <div className="line1"></div>

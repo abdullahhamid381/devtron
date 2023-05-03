@@ -20,13 +20,13 @@ a {
 }
 
 .navbar-parent {
-    background: #000000;
+    background: #000C14;
     border-bottom: 1px solid rgba(255, 255, 255, 0.18);
     position: absolute;
     top: 0;
     width: 100%;
     z-index: 99;
-    padding: 0px 0;
+    padding: 10px 0;
 
     .nav {
         display: flex;
@@ -51,9 +51,13 @@ a {
         align-items: center;
         justify-content: space-around;
         gap: 3rem;
+        margin-right: 20px;
 
         li {
             font-weight: bolder;
+        }
+        .active{
+            color: #009697;
         }
     }
 

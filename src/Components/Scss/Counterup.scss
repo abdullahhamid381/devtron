@@ -1,10 +1,8 @@
-body {
-  
-}
+body {}
 
 .reason-parent {
-background: #000C14;
-padding-top: 160px;
+    background: #000C14;
+    padding-top: 160px;
 
     div {
         h1 {
@@ -12,13 +10,16 @@ padding-top: 160px;
             color: white;
             word-spacing: 8px;
             font-size: 45px;
-           
+            margin: 0;
+
         }
 
         p {
-            color: whitesmoke;
+           
             line-height: 25px;
             font-family: sans-serif;
+            margin-top: 10px;
+            color: #555D62;
 
         }
 
@@ -33,7 +34,8 @@ padding-top: 160px;
         gap: 100px;
         align-items: center;
         background: url("D:\Devtron\Devtron Site\devtron\public\images\4.png");
-padding-top: 180px;
+        padding-top: 180px;
+
         .counter-detail {
             padding: 160px 0;
 
@@ -47,11 +49,11 @@ padding-top: 180px;
                 color: white;
                 margin: 0;
                 padding: 0;
-                font-size: 60px;
+                font-size: 45px;
             }
 
             .para {
-                color: #BFC0C0;
+                color: #555D62;
             }
         }
 
@@ -64,7 +66,7 @@ padding-top: 180px;
                 margin-bottom: 60px;
 
                 span {
-                    font-size: 60px;
+                    font-size: 45px;
                     color: #2EDAF1;
                     font-weight: bolder;
                 }
@@ -88,9 +90,9 @@ padding-top: 180px;
                 // justify-content: center;
                 // border-radius: 8px;
                 // border: 1px solid rgba(255, 255, 255, 0.141);
-                
 
-                img{
+
+                img {
                     width: 100%;
                     border-radius: 8px;
                 }
@@ -175,17 +177,17 @@ padding-top: 180px;
         display: grid;
         grid-template-columns: 1fr 1fr 1fr 1fr;
         gap: 60px;
-        width: 70%;
+        width: 80%;
         margin: auto;
         place-items: center;
-        padding: 180px 0  180px 0;
+        padding: 180px 0 180px 0;
         border-bottom: 1px solid rgba(255, 255, 255, 0.141);
 
         .cards {
             width: 100%;
             border: 1px solid rgba(255, 255, 255, 0.141);
             padding: 30px 20px;
-            background: linear-gradient(45deg,#01141D,#01141D,#01141D,#002934);
+            background: linear-gradient(45deg, #01141D, #01141D, #01141D, #002934);
             border-radius: 8px;
             cursor: pointer;
             transition: 1s !important;
@@ -193,7 +195,7 @@ padding-top: 180px;
             h3 {
                 color: white;
                 padding: 20px 0 0 0;
-                font-size: 25px;
+                font-size: 20px;
 
             }
 
@@ -213,8 +215,9 @@ padding-top: 180px;
                 color: #2EDAF1;
             }
         }
-        .cards:hover{
-            background: linear-gradient(45deg,#01141D,#01141D,#014b5f);
+
+        .cards:hover {
+            background: linear-gradient(45deg, #01141D, #01141D, #014b5f);
         }
     }
 }
