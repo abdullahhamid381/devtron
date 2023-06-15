@@ -13,8 +13,8 @@ import Footer from './Components/Footer'
 const App = () => {
   return (
     <div>
-      {/* <Navbar />
-      <Slider /> */}
+      <Navbar />
+      <Slider />
 
        <Counterup start={0} end={500} starttwo={0} endtwo={15} />
       {/*<TrustedCompany />
