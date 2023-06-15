@@ -69,7 +69,7 @@ const Counterup = ({ start = 0, end, starttwo = 0, endtwo, }) => {
         <div className="reason-parent">
             {/* CARD SECTION START HERE */}
 
-            <div>
+            <div className='reason-title-text'>
                 <center><h1> Why Choose <b style={{ color: '#2EDAF1' }}> Devtron  ?</b></h1>
                     <p className='reason-detail-para'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor <br /> incididunt ut labore et dolore magna aliqua enim ad minim veniam</p>
                 </center>
@@ -114,7 +114,7 @@ const Counterup = ({ start = 0, end, starttwo = 0, endtwo, }) => {
 
             </div> 
 
-            <div className='cards-parent'>
+            {/* <div className='cards-parent'>
                 {
                     cardservices.map((map) => {
                         return (
@@ -134,7 +134,7 @@ const Counterup = ({ start = 0, end, starttwo = 0, endtwo, }) => {
                         )
                     })
                 }
-            </div>
+            </div> */}
         </div>
     )
 }
