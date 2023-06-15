@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Orbitron&display=swap');
-
+@import './media.scss';
 html {
     font-size: 62.5%;
 }
@@ -28,22 +28,34 @@ a {
     width: 100%;
     z-index: 99;
     padding: 10px 0;
+    @include lg{
+        padding: 0;
+    }
+    @include tablet{
+        padding: 0 !important;
+    }
 
     .nav {
         display: flex;
         align-items: center;
         justify-content: space-between;
-        height: 10vh;
+        /* height: 10vh; */
         width: 90%;
         margin: auto;
+        /* height: 0; */
+        padding: 40px 0;
+        height: 0;
     }
 
     .nav__brand {
         text-transform: uppercase;
 
        .logo{
-        width: 80%;
+        width: 75%;
         margin-top: 10px;
+        @include tablet{
+            width: 60%;
+        }
        }
     }
 
@@ -74,7 +86,7 @@ a {
         transition: 0.3s ease-in;
     }
 
-    @media screen and (max-width: 768px) {
+  @include lg {
         .nav__toggler {
             display: block;
             cursor: pointer;
@@ -82,17 +94,67 @@ a {
 
         .nav__menu {
             position: fixed;
-            top: 7.3vh;
-            right: 0;
-            height: 93vh;
-            width: 50vw;
-            background: #021c24a1;
+            top: -2.7vh;
+            right: -51px;
+            height: 100vh;
+            width: 109vw;
+            background: rgba(2, 28, 36, 0.631372549);
             flex-direction: column;
             transform: translateX(100%);
             transition: 0.5s ease-in;
         }
+       
+            .logo{
+                width: 60%;
+                margin-top: 10px;
+                margin-left: -30px;
+               }
+           
     }
-
+    @include sm5{
+        .nav {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            /* height: 10vh; */
+            width: 90%;
+            margin: auto;
+            /* height: 0; */
+            padding: 25px 0;
+            height: 0;
+        }
+    }
+    @include sm4{
+        .nav {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            /* height: 10vh; */
+            width: 90%;
+            margin: auto;
+            /* height: 0; */
+            padding: 25px 0;
+            height: 0;
+        }
+    }
+@include sm3{
+    .nav {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        /* height: 10vh; */
+        width: 90%;
+        margin: auto;
+        /* height: 0; */
+        padding: 30px 0;
+        height: 0;
+    }
+    .logo{
+        width: 60%;
+        margin-top: 10px;
+        margin-left: -20px;
+       }
+}
     /* Active Class */
     .nav__active {
         transform: translateX(0%);
