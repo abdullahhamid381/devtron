@@ -1,17 +1,22 @@
+@import './media.scss';
 .trusted-main-parent{
     background: #000C14;
     .trusted-parent {
-        width: 80%;
+        width: 90%;
         margin: auto;
-        padding-top: 50px;
+        padding-top: 80px;
 
         .company-logo {
           display: grid;
-          grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+          grid-template-columns: 1fr 3fr ;
           align-items: center;
           margin: auto;
+
+          @include lg{
+            grid-template-columns: 1fr;
+          }
           
-    
+  
             .text {
                 h3 {
                     color: #2EDAF1;
@@ -23,12 +28,17 @@
                 }
             }
     
+          .logo-img{
+            align-items: center;
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr 1fr;
             img {
                 width: 70% !important;
                 height: auto;
                 opacity: 0.3;
                 transition: .45s;
             }
+          }
             img:hover {
              
                 opacity: 100%;
@@ -43,6 +53,10 @@
             place-items: center;
             padding: 100px 0 180px 0;
             padding-top: 180px;
+           @include lg{
+            grid-template-columns: 1fr;
+            padding-top: 80px;
+           }
     
             .img-div {
                 img {

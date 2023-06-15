@@ -10,10 +10,12 @@ const TrustedCompany = () => {
                         Trusted By <br /> <b>Big Companies</b></h3>
                 </div>
 
+                <div className='logo-img'>
                 <img src="./images/10.png" alt="" />
                 <img src="./images/11.png" alt="" />
                 <img src="./images/13.png" alt="" />
                 <img src="./images/14.png" alt="" />
+                </div>
 
             </div>
 
