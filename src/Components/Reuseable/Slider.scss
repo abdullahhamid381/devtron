@@ -2,49 +2,58 @@
 
 .swiper {
   width: 100%;
-  height: 100%;
-  position: relative;
+
+
   border-bottom: 1px solid rgba(255, 255, 255, 0.119);
-  top: 50px;
+  
 
 }
 
 .swiper-slide {
-  background-position: center;
-  background-size: cover;
-  position: relative;
+  // background-position: center;
+  // background-size: cover;
+  // position: relative;
 
   .parent {
-    width: 100%;
-    position: absolute;
-    top: 230px;
+    // width: 100%;
+    // position: absolute;
+    // top: 230px;
+    background: url('../../../public/images/1.jpg') no-repeat;
+    background-size: cover;
+    height: 100vh;
 
-    @include xlaptop {
-      top: 200px;
-    }
+.main-text{
+  padding: 140px 0;
+  @include mobile{
+    padding: 80px 0;
+  }
+}
+    // @include xlaptop {
+    //   top: 200px;
+    // }
 
-    @include laptop {
-      top: 170px;
-    }
+    // @include laptop {
+    //   top: 170px;
+    // }
 
-    @include xtablet {
-      top: 110px;
-    }
+    // @include xtablet {
+    //   top: 110px;
+    // }
 
-    @include tablet {
-      top: 90px;
-    }
+    // @include tablet {
+    //   top: 90px;
+    // }
 
-    @include mobile {
-      top: 50px;
-    }
+    // @include mobile {
+    //   top: 50px;
+    // }
 
-    @include sm4 {
-      top: 20px;
-    }
-    @include sm3{
-      top: 30px;
-    }
+    // @include sm4 {
+    //   top: 20px;
+    // }
+    // @include sm3{
+    //   top: 30px;
+    // }
 
     h1 {
 
@@ -53,10 +62,10 @@
       font-size: 90px;
       margin: 0;
 
-      @include xlaptop {
-        font-size: 60px;
-        line-height: 80px;
-      }
+      // @include xlaptop {
+      //   font-size: 60px;
+      //   line-height: 80px;
+      // }
 
       @include lg {
         font-size: 50px;
@@ -64,23 +73,23 @@
       }
 
       @include xtablet {
-        font-size: 40px;
+        font-size: 45px;
         line-height: 50px;
       }
 
-      @include tablet {
-        font-size: 30px;
-        line-height: 50px;
-      }
+      // @include tablet {
+      //   font-size: 30px;
+      //   line-height: 50px;
+      // }
 
       @include mobile {
-        font-size: 25px;
-        line-height: 35px;
+        font-size: 45px;
+        line-height: 50px;
       }
-      @include sm3{
-        font-size: 18px;
-        line-height: 25px;
-      }
+      // @include sm3{
+      //   font-size: 18px;
+      //   line-height: 25px;
+      // }
     }
 
     p {
@@ -89,26 +98,26 @@
       line-height: 25px;
       margin-top: 30px;
 font-family: sans-serif  !important;
-      @include xlaptop {
-        font-size: 15px;
-        margin-top: 15px;
-      }
+      // @include xlaptop {
+      //   font-size: 15px;
+      //   margin-top: 15px;
+      // }
 
-      @include lg {
-        font-size: 12px;
-        margin-top: 11px;
-        line-height: 20px;
-      }
+      // @include lg {
+      //   font-size: 12px;
+      //   margin-top: 11px;
+      //   line-height: 20px;
+      // }
 
-      @include xtablet {
-        font-size: 11px;
-        margin-top: 11px;
-        line-height: 20px;
-      }
+      // @include xtablet {
+      //   font-size: 11px;
+      //   margin-top: 11px;
+      //   line-height: 20px;
+      // }
 
-      @include tablet {
-        display: none;
-      }
+      // @include tablet {
+      //   display: none;
+      // }
     }
 
     button {
@@ -127,51 +136,51 @@ font-family: sans-serif  !important;
       // box-shadow: 0px 0px 24px 0px rgba(45.99999999999999, 217.9999999999999, 240.99999999999997, 0.49) inset;
       padding: 15px 32px 15px 32px;
 
-      @include xlaptop {
-        padding: 15px 20px 15px 20px;
-      }
+      // @include xlaptop {
+      //   padding: 15px 20px 15px 20px;
+      // }
 
-      @include lg {
-        margin-top: 15px;
-      }
+      // @include lg {
+      //   margin-top: 15px;
+      // }
 
-      @include xtablet {
-        padding: 12px 17px;
-        margin-top: 10px;
-      }
+      // @include xtablet {
+      //   padding: 12px 17px;
+      //   margin-top: 10px;
+      // }
 
-      @include tablet {
-        margin-top: 20px;
-      }
+      // @include tablet {
+      //   margin-top: 20px;
+      // }
 
-      @include mobile {
-        padding: 10px 15px;
-        margin-top: 10px;
-      }
-      @include sm3{
-        padding: 5px 10px;
-        margin-top: 10px;
-      }
+      // @include mobile {
+      //   padding: 10px 15px;
+      //   margin-top: 10px;
+      // }
+      // @include sm3{
+      //   padding: 5px 10px;
+      //   margin-top: 10px;
+      // }
 
       a {
         color: white !important;
         font-size: 25px;
         border-radius: 50px;
 
-        @include lg {
-          font-size: 18px;
-        }
+        // @include lg {
+        //   font-size: 18px;
+        // }
 
-        @include xtablet {
-          font-size: 15px;
-        }
+        // @include xtablet {
+        //   font-size: 15px;
+        // }
 
-        @include mobile {
-          font-size: 12px;
-        }
-        @include sm3{
-          font-size: 10px;
-        }
+        // @include mobile {
+        //   font-size: 12px;
+        // }
+        // @include sm3{
+        //   font-size: 10px;
+        // }
       }
     }
 

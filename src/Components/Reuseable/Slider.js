@@ -28,7 +28,7 @@ export default function Slider() {
                 modules={[Autoplay, EffectFade, Navigation, Pagination]}
                 className="mySwiper"
             >
-                <SwiperSlide>
+                {/* <SwiperSlide>
 
                     <img src={"./images/1.jpg"} width={"100%"} />
 
@@ -41,16 +41,18 @@ export default function Slider() {
                         <button><a href="">Contact Us </a></button>
                         </div>
                     </div>
-                </SwiperSlide>
+                </SwiperSlide> */}
                 <SwiperSlide>
-                    <img src={"./images/2.jpg"} width={"100%"} />
+                    {/* <img src={"./images/2.jpg"} width={"100%"} /> */}
                     <div className="parent">
-                        <div style={{width:'82%',margin:'auto'}}>
+                       <div className="main-text">
+                       <div style={{width:'82%',margin:'auto'}}>
                         <h1>Creating a Better <br /> <b style={{ color: '#2EDAF1' }}>IT Solutions.</b></h1>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas quis faucibus ligula. Maecenas a <br /> purus massa. Ut elementum sem mauris, ut venenatis tortor congue et. Ut et dolor massa.</p>
 
                         <button><a href="">Contact Us </a></button>
                         </div>
+                       </div>
                     </div>
                 </SwiperSlide>
 
