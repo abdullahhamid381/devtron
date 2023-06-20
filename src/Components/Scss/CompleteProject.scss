@@ -17,13 +17,13 @@ h3 {
 
     width: 75%;
     margin: auto;
-    border: 1px solid rgba(255, 255, 255, 0.141);
-    background-color: transparent;
-    background-image: radial-gradient(at center center, rgba(0, 225, 255, 0.1411764706) 0%, #01141d 70%);
-    transition: 0.4s !important;
-    border-radius: 8px;
-    padding: 0px 60px 0px 60px;
-    height: auto;
+    // border: 1px solid rgba(255, 255, 255, 0.141);
+    // background-color: transparent;
+    // background-image: radial-gradient(at center center, rgba(0, 225, 255, 0.1411764706) 0%, #01141d 70%);
+    // transition: 0.4s !important;
+    // border-radius: 8px;
+    // padding: 0px 60px 0px 60px;
+    // height: auto;
 
     @include lg {
       width: 60%;
