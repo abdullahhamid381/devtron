@@ -18,8 +18,8 @@ const App = () => {
 
        <Counterup start={0} end={500} starttwo={0} endtwo={15} />
      <TrustedCompany />
-      {/* <BestService />
-      <CompletedProject />
+     <BestService />
+       {/* <CompletedProject />
       <Reviews />
       <History start={0} end={200} starttwo={0} endtwo={100} startthree={0} endthree={10} startfour={0} endfour={24} />
       <Blog/>

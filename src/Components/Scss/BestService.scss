@@ -1,11 +1,19 @@
+@import './media.scss';
 .best-services-main-parent {
     background: #000C14;
 padding-top: 100px;
+@include lg{
+    padding-top: 50px;
+}
     .best-services-parent {
         width: 80%;
         margin: auto;
         display: grid;
         grid-template-columns: 1fr 2fr;
+@include lg{
+    grid-template-columns: 1fr;
+}
+
 
         .services-detail {
             .sidebar {
@@ -24,7 +32,7 @@ padding-top: 100px;
             h1 {
                 margin: 0;
                 color: white;
-                font-size: 30px;
+                font-size: 45px;
             }
 
             .second {
@@ -36,7 +44,7 @@ padding-top: 100px;
                 color: #555D62;
                 margin-top: 30px;
                 width: 68%;
-
+line-height: 25px;
             }
 
             .all-service {
@@ -58,6 +66,10 @@ padding-top: 100px;
             display: grid;
             grid-template-columns: 1fr 1fr;
             gap: 40px;
+            @include lg{
+                grid-template-columns: 1fr ;
+                padding: 50px 0;
+            }
 
             .services-img {
 

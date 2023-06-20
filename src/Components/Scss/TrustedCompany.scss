@@ -20,7 +20,12 @@
             .text {
                 h3 {
                     color: #2EDAF1;
-                    font-size: 22px;
+                    font-size: 35px;
+                    font-weight: 700;
+                @include lg{
+                    font-size: 45px;
+                    font-weight: 700;
+                }
     
                     b {
                         color: white;
@@ -29,9 +34,12 @@
             }
     
           .logo-img{
-            align-items: center;
             display: grid;
-            grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    place-items: center;
+    @include lg{
+        grid-template-columns: 1fr;
+    }
             img {
                 width: 70% !important;
                 height: auto;
@@ -55,7 +63,7 @@
             padding-top: 180px;
            @include lg{
             grid-template-columns: 1fr;
-            padding-top: 80px;
+            padding: 80px 0 0 0;
            }
     
             .img-div {
@@ -70,7 +78,7 @@
                     color: white;
                     margin: 0;
                     padding: 0;
-                    font-size: 30px;
+                    font-size: 45px;
     
                 }
     
@@ -89,6 +97,7 @@
                             font-size: 16px;
                             margin:20px 0 30px 0;
                             font-family: sans-serif;
+                            line-height: 25px;
                         }
                         button{
                             fill: #FFFFFF;
