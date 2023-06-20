@@ -70,11 +70,13 @@
       @include lg {
         font-size: 50px;
         line-height: 60px;
+        font-weight: 700;
       }
 
       @include xtablet {
         font-size: 45px;
         line-height: 50px;
+        font-weight: 700;
       }
 
       // @include tablet {
@@ -85,6 +87,7 @@
       @include mobile {
         font-size: 45px;
         line-height: 50px;
+        font-weight: 700;
       }
       // @include sm3{
       //   font-size: 18px;

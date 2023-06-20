@@ -90,6 +90,7 @@ a {
         .nav__toggler {
             display: block;
             cursor: pointer;
+            z-index: 999999;
         }
 
         .nav__menu {
@@ -102,6 +103,7 @@ a {
             flex-direction: column;
             transform: translateX(100%);
             transition: 0.5s ease-in;
+            z-index: 999;
         }
        
             .logo{
