@@ -1,41 +1,52 @@
-h1{
-  letter-spacing: 4px;
-}
-h3{
+h1 {
   letter-spacing: 4px;
 }
 
-.main-parent-completedprojects{
+h3 {
+  letter-spacing: 4px;
+}
+
+@import './media.scss';
+
+.main-parent-completedprojects {
   background: #000C14;
   padding-top: 180px;
   padding-bottom: 180px;
+
   .complete-project-parent {
-    width: 73%;
+
+    width: 75%;
     margin: auto;
     border: 1px solid rgba(255, 255, 255, 0.141);
     background-color: transparent;
-    background-image: radial-gradient(at center center, #00e1ff24 0%, #01141d 70%);
-    transition: .40s !important;
-  
+    background-image: radial-gradient(at center center, rgba(0, 225, 255, 0.1411764706) 0%, #01141d 70%);
+    transition: 0.4s !important;
     border-radius: 8px;
-    padding: 60px 60px 200px 60px;
-
+    padding: 0px 60px 0px 60px;
     height: auto;
-  
+
+    @include lg {
+      width: 60%;
+      margin: auto;
+    }
+
+@include sm4{
+ padding: 60px 60px 260px 60px;;
+}
     .text {
       text-align: center;
-  
+
       h1 {
         color: white;
         font-size: 30px;
-  
+
         b {
           color: #00FBF4;
           ;
         }
-  
+
       }
-  
+
       p {
         color: #555D62;
         width: 60%;
@@ -43,25 +54,47 @@ h3{
         font-family: sans-serif;
       }
     }
-  
+
     .work-images {
       display: grid;
       grid-template-columns: 1fr 1fr;
-      gap: 80px;
+      gap: 40px;
+
       padding-top: 80px;
-  
+
+      @include lg {
+        grid-template-columns: 1fr;
+        gap: 140px 0;
+      }
+
+      @include md {
+        gap: 200px 0;
+      }
+
+      @include sm6 {
+        gap: 200px 0;
+      }
+
+      @include sm5 {
+        gap: 260px 0;
+      }
+
+      @include sm4 {
+        gap: 300px 0;
+      }
+
       img {
         border-radius: 10px;
         width: 100%;
       }
-  
+
       .work {
-  
+
         position: relative;
         display: flex;
         flex-direction: column;
         align-items: center;
-  
+
         .details {
           background: #01141D;
           width: 80%;
@@ -70,35 +103,82 @@ h3{
           padding: 40px;
           position: absolute;
           top: 280px;
+
+          height: 145px;
+
           border: 1px solid rgba(255, 255, 255, 0.141);
           ;
           border-radius: 10px;
-  
+
+          @include xdisplay {
+            top: 220px;
+            padding: 40px 20px;
+          }
+
+          @include laptop {
+            top: 180px;
+            padding: 40px 20px 80px 20px;
+          }
+
+          @include lg {
+            background: #01141D;
+            width: 80%;
+            margin: auto;
+            text-align: center;
+            padding: 40px;
+            position: absolute;
+            top: 280px;
+
+            height: 145px;
+
+            border: 1px solid rgba(255, 255, 255, 0.141);
+            ;
+            border-radius: 10px;
+
+          }
+
+          @include sm6 {
+            top: 180px;
+          }
+
+          @include sm5 {
+            top: 120px;
+            padding: 40px 15px 120px 15px;
+          }
+
+          @include sm3 {
+            top: 100px;
+          }
+
           h3 {
             color: white;
             font-size: 22px;
+
+            @include sm4 {
+              font-size: 15px;
+            }
           }
-  
+
           p {
             color: white;
             color: #555D62;
             font-size: 16px;
             font-family: sans-serif;
           }
-  
+
           .icon-deiv {
             display: flex;
             justify-content: center;
             align-items: center;
             cursor: pointer;
-  
-  
+
+
             span {
               color: #00FBF4;
               align-items: center;
               transition: .40s;
             }
-  
+
             .icons {
               font-size: 18px;
               padding-left: 5px !important;
@@ -106,21 +186,19 @@ h3{
               color: #2EDAF1;
             }
           }
-  
+
           .icon-deiv:hover {
             span {
               color: #ffffff;
             }
-  
+
             .icons {
               color: #ffffff;
             }
           }
-  
+
         }
       }
     }
   }
 }
-
-
