@@ -1,21 +1,45 @@
+@import './media.scss';
+
 .counter-number{
     background: #000C14;
     .counter-number-parent-sub{
         display: grid;
         grid-template-columns: 1fr 1fr 1fr 1fr;
-        width: 80%;
+        width: 90%;
         margin: auto;
         place-items: center;
-        padding-top: 40px;
+        padding-top: 180px;
+        @include lg{
+            grid-template-columns: 1fr;
+            gap: 40px 0;
+            place-items: center;
+            padding: 90px 0 0 0;
+            
+
+        }
         .counter-item{
            padding: 0 40px;
+           @include lg{
+            border: none  !important;
+            padding: 0;
+            margin: 0;
+           }
             span{
                 color: white;
                 font-size: 32px;
+                margin: 0;
+                padding: 0;
+                @include lg{
+                    text-align: center;
+                }
             }
             p{
                 color:#555D62;
                 margin: 0;
+                padding: 0;
+                @include lg{
+                    text-align: center;
+                }
             }
         }
     }

@@ -10,19 +10,22 @@ import BestService from './Components/BestService'
 import History from './Components/History'
 import Blog from './Components/Blog'
 import Footer from './Components/Footer'
+import Ourprojects from './Components/Ourprojects'
 const App = () => {
   return (
     <div>
-      <Navbar />
-      <Slider />
+     <Navbar />
+       <Slider />
 
        <Counterup start={0} end={500} starttwo={0} endtwo={15} />
      <TrustedCompany />
      <BestService />
+ 
        <CompletedProject />
-       {/*<Reviews />
-      <History start={0} end={200} starttwo={0} endtwo={100} startthree={0} endthree={10} startfour={0} endfour={24} />
-      <Blog/>
+       <History start={0} end={200} starttwo={0} endtwo={100} startthree={0} endthree={10} startfour={0} endfour={24} />
+      <Reviews />
+   
+       {/*  <Blog/>
       <Footer/> */}
     </div>
   )

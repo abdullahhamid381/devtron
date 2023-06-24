@@ -89,6 +89,9 @@
         line-height: 50px;
         font-weight: 700;
       }
+      @include sm3{
+        font-size: 30px;
+      }
       // @include sm3{
       //   font-size: 18px;
       //   line-height: 25px;

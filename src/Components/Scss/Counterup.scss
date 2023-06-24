@@ -20,6 +20,9 @@ body {}
             font-size: 45px;
 
             margin: 0;
+            @include sm3{
+                font-size: 35px;
+            }
 
         }
 
@@ -71,6 +74,9 @@ body {}
                 font-size: 45px;
                 word-spacing: 0px;
                 font-weight: 700;
+                @include sm3{
+                    font-size: 30px;
+                }
             }
 
             .para {
@@ -102,6 +108,9 @@ body {}
                     font-size: 45px;
                     color: #2EDAF1;
                     font-weight: bolder;
+                    @include sm3{
+                        font-size: 30px;
+                    }
                 }
 
                 p {

@@ -51,17 +51,24 @@ export const cardservices=[
 
 export const workproject=[
     {
-        img:'./images/16.jpg',
-        h3:'Web Development',
+        img:'./images/p1.png',
+        h3:'Building a responsive tech website',
         p:'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.',
         h5:'View Details',
     },
     {
-        img:'./images/17.jpg',
-        h3:'Application Development',
+        img:'./images/p2.png',
+        h3:'Building a Crypto landing page with Reactjs',
         p:'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.',
         h5:'View Details'
     },
+    {
+        img:'./images/p3.jpg',
+        h3:'Building a crypto landing page with reactjs',
+        p:'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.',
+        h5:'View Details'
+    },
+   
 ]
 
 // REVieW SECTION STArT HERE

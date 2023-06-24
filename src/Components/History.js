@@ -128,9 +128,7 @@ const History = ({ start = 0, end, starttwo = 0, endtwo, startthree = 0, endthre
             <div className='counter-number-parent-sub'>
 
                 <div className='counter-item' style={{ borderRight: '1px solid rgba(255, 255, 255, 0.141)' }}>
-                    <div>
-                        <img src="" alt="" />
-                    </div>
+               
                     <div>
                         <span style={{}}>{value} +  </span>
                         <p>Project Completed</p>
