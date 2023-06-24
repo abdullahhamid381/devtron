@@ -1,3 +1,4 @@
+@import './media.scss';
 .footer{
    
   
@@ -17,6 +18,9 @@
         grid-template-columns: 1fr 1fr 1fr 1fr;
         place-items: center;
         align-items: center;
+        @include lg{
+            grid-template-columns: 1fr;
+        }
     }
     ul{
         list-style: none;
