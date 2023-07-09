@@ -12,23 +12,25 @@ import Blog from './Components/Blog'
 import Footer from './Components/Footer'
 import Ourprojects from './Components/Ourprojects'
 import Choose from './Components/Choose'
+import Work from './Components/Work'
 const App = () => {
   return (
     <div>
-     <Navbar />
-       <Slider />
+      <Navbar />
+      <Slider />
 
-       <Counterup start={0} end={500} starttwo={0} endtwo={15} />
-     <TrustedCompany />
-     <Choose/>
-     <BestService />
- 
-       <CompletedProject />
-       <History start={0} end={200} starttwo={0} endtwo={100} startthree={0} endthree={10} startfour={0} endfour={24} />
+      <Counterup start={0} end={500} starttwo={0} endtwo={15} />
+      <TrustedCompany />
+      {/* <Choose /> */}
+      <BestService />
+
+      {/* <CompletedProject /> */}
+      <Work/>
+      <History start={0} end={200} starttwo={0} endtwo={100} startthree={0} endthree={10} startfour={0} endfour={24} />
       <Reviews />
-   
-       {/* <Blog/> */}
-      <Footer/>
+
+      {/* <Blog/> */}
+      <Footer />
     </div>
   )
 }

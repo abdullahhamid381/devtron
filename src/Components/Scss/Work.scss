@@ -1,0 +1,220 @@
+// .work-parent {
+//     width: 100%;
+//     max-width: 1200px;
+//     margin: auto;
+//     margin: auto;
+//     border: 1px solid rgba(255, 255, 255, 0.141);
+//     background-color: transparent;
+//     background-image: radial-gradient(at center center, rgba(0, 225, 255, 0.1411764706) 0%, #01141d 70%);
+//     transition: 0.4s !important;
+//     border-radius: 8px;
+//     padding: 60px 60px 60px 60px;
+//     height: auto;
+//     margin-top: 160px;
+
+//     .title {
+
+//         h1 {
+//             font-weight: bolder;
+//             color: white;
+//             word-spacing: 8px;
+//             font-size: 35px;
+//             letter-spacing: 1px;
+//             margin: 0;
+//             text-align: center;
+
+//             span {
+//                 color: rgb(46, 218, 241);
+//             }
+//         }
+
+//         p {
+//             line-height: 25px;
+//             font-family: sans-serif;
+//             margin-top: 10px;
+//             width: 50%;
+//             color: #555D62;
+//             text-align: center;
+//             margin: 10px auto 0 auto;
+//             font-size: 18px;
+//         }
+
+//     }
+//     .project{
+//         img{
+//             width: 100%;
+//         }
+//         .description{
+//             h1{
+//                 font-weight: bolder;
+//                 color: white;
+//                 word-spacing: 8px;
+//                 font-size: 24px;
+//                 letter-spacing: 1px;
+//                 margin: 0;
+//                 text-align: center
+//             }
+//             p{
+//                 line-height: 25px;
+//                 font-family: sans-serif;
+//                 margin-top: 10px;
+//                 width: 33%;
+//                 color: #555D62;
+//                 text-align: center;
+//                 margin: 10px auto 0 auto;
+//                 font-size: 18px;
+//             }
+//             input{
+//                 background: none;
+//                 border: none;
+//                 text-align: center;
+
+//             }
+//         }
+//     }
+// }
+
+
+
+.main-parenttwo{
+  background: #000C14;
+   width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    margin: auto;
+    border: 1px solid rgba(255, 255, 255, 0.141);
+    background-color: transparent;
+    background-image: radial-gradient(at center center, rgba(0, 225, 255, 0.1411764706) 0%, #01141d 70%);
+    transition: 0.4s !important;
+    border-radius: 8px;
+    padding: 60px 60px 60px 60px;
+    height: auto;
+    margin-top: 160px;
+  .work-parent {
+   
+
+.title {
+
+            h1 {
+                font-weight: bolder;
+                color: white;
+                word-spacing: 8px;
+                font-size: 35px;
+                letter-spacing: 1px;
+                margin: 0;
+                text-align: center;
+    
+                span {
+                    color: rgb(46, 218, 241);
+                }
+            }
+    
+            p {
+                line-height: 25px;
+                font-family: sans-serif;
+                margin-top: 10px;
+                width: 50%;
+                color: #555D62;
+                text-align: center;
+                margin: 10px auto 0 auto;
+                font-size: 18px;
+            }
+    
+        }
+
+  
+    .titlee {
+      display: grid;
+      grid-template-columns: 1fr;
+      
+  
+      h1 {
+        color: white;
+        font-size: 45px;
+        margin-left: 0px !important;
+  
+        b {
+          color: rgb(46, 218, 241);
+        }
+      }
+  
+      p {
+        color: rgb(128, 128, 128);
+        width: 80%;
+        margin: auto;
+        font-size: 16px;
+        font-family: sans-serif;
+        margin-right: -40px !important;
+      }
+    }
+  
+  
+  
+  
+  .swiper-back{
+    .res-slide{
+      .card-parent{
+        .review-slider {
+          padding: 180px 0 !important;
+        }
+    
+        .review-parent {
+          padding:50px 40px;
+      position: relative;
+     
+          // background: linear-gradient(328deg, #01141D, #00252F);
+            
+      
+    img{
+        width: 100%;
+        border-radius: 8px;
+    }
+
+ 
+        }
+      }
+    }
+     .description{
+    background: #01141D;
+    width: 85%;
+    margin: auto;
+    padding: 25px 0;
+    position: absolute;
+    border: 1px solid rgba(255, 255, 255, 0.141);
+    top: 270px;
+    left: 45px;
+    border-radius: 8px;
+
+
+
+    
+    h1{
+        margin: 0;
+        font-size: 18px;
+        text-align: center;
+        color: white;
+    }
+    p{
+        font-size: 13px;
+        text-align: center;
+        width: 70%;
+        margin-top: 10px;
+        margin:10px auto 0 auto;
+        color: rgb(128, 128, 128);
+        line-height: 25px;
+    }
+    h5{
+        color: #2BCBE1;
+    }
+   }
+  }
+  
+   
+  
+
+    
+  
+  
+  
+  }
+}
