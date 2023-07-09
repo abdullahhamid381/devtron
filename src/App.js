@@ -11,6 +11,7 @@ import History from './Components/History'
 import Blog from './Components/Blog'
 import Footer from './Components/Footer'
 import Ourprojects from './Components/Ourprojects'
+import Choose from './Components/Choose'
 const App = () => {
   return (
     <div>
@@ -19,6 +20,7 @@ const App = () => {
 
        <Counterup start={0} end={500} starttwo={0} endtwo={15} />
      <TrustedCompany />
+     <Choose/>
      <BestService />
  
        <CompletedProject />

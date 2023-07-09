@@ -1,5 +1,8 @@
 import {AiOutlineArrowRight} from 'react-icons/ai'
 import { ImQuotesLeft } from 'react-icons/im'
+import {AiOutlineCloudServer,AiOutlineLock} from 'react-icons/ai'
+import {BsCloudUpload} from 'react-icons/bs'
+import {SlBadge} from 'react-icons/sl'
 export const Reasondata=[
     {
         h1:'Easy Integration',
@@ -117,6 +120,34 @@ export const reviewsection=[
    
 ]
 
+// CARDS provide
+
+export const cardsprovide=[
+    {
+        icon:<AiOutlineCloudServer/>,
+        h1:'Easy Integration',
+        p:'Lorem ipsum dolor sit amet consecte adipiscing eli sed eiusmod tempo incididu dolore magna aliqua',
+
+    },
+    {
+        icon:<BsCloudUpload/>,
+        h1:'New Technology',
+        p:'Lorem ipsum dolor sit amet consecte adipiscing eli sed eiusmod tempo incididu dolore magna aliqua',
+
+    },
+    {
+        icon:<SlBadge/>,
+        h1:'Better Reliability',
+        p:'Lorem ipsum dolor sit amet consecte adipiscing eli sed eiusmod tempo incididu dolore magna aliqua',
+
+    },
+    {
+        icon:<AiOutlineLock/>,
+        h1:'100% Secured',
+        p:'Lorem ipsum dolor sit amet consecte adipiscing eli sed eiusmod tempo incididu dolore magna aliqua',
+
+    },
+]
 // BEST SERVICES
 
 export const bestservices=[
