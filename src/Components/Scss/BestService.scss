@@ -33,13 +33,15 @@ padding-top: 100px;
                 margin: 0;
                 color: white;
                 font-size: 45px;
+                letter-spacing: 1px;
                 @include sm3{
                     font-size: 30px;
                 }
             }
 
             .second {
-                color: #00FBF4;
+                color: #2EDAF1;
+                letter-spacing: 1px;
             }
 
             p {
@@ -106,7 +108,7 @@ line-height: 25px;
                         h1 {
                             color: white;
                             width: 100% !important;
-
+letter-spacing: 1px;
                             font-size: 22px;
 
                         }

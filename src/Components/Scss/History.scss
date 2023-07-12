@@ -29,6 +29,7 @@
                 font-size: 32px;
                 margin: 0;
                 padding: 0;
+                letter-spacing: 1px;
                 @include lg{
                     text-align: center;
                 }
@@ -36,6 +37,7 @@
             p{
                 color:#555D62;
                 margin: 0;
+                letter-spacing: 1px;
                 padding: 0;
                 @include lg{
                     text-align: center;

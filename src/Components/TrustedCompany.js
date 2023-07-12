@@ -7,7 +7,7 @@ const TrustedCompany = () => {
             <div className='company-logo'>
                 <div className='text'>
                     <h3>
-                        Trusted By <br /> <b>Big Companies</b></h3>
+                        Trusted By </h3><h3 style={{color:'white'}}>Big Companies</h3>
                 </div>
 
                 <div className='logo-img'>

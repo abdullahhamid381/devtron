@@ -1,12 +1,15 @@
+@import './media.scss';
 .choose-parent{
     .title{
         h1{
             font-weight: bolder;
             color: white;
             word-spacing: 8px;
+            letter-spacing: 1px;
             font-size: 45px;
             margin: 0;
             text-align: center;
+            
             span{
     color: rgb(46, 218, 241);
         }
@@ -30,6 +33,9 @@
         max-width: 1300px;
         margin: auto;
         padding-top: 80px;
+        @include lg{
+            grid-template-columns: 1fr ;
+        }
         .card{
             text-align: left;
             background-color: transparent;
@@ -59,6 +65,7 @@
                 h1{
                     color: white;
                     font-size: 20px;
+                    letter-spacing: 1px;
                 }
                 p{
                     font-family: sans-serif;

@@ -18,20 +18,27 @@
           
   
             .text {
+                display: flex;
+                margin-bottom: 40px;
+                flex-direction: column;
+                @include lg{
+                    flex-direction: row;
+                    justify-content: center;
+                }
                 h3 {
                     color: #2EDAF1;
                     font-size: 35px;
                     font-weight: 700;
+                    letter-spacing: 1px;
+                    margin: 0;
                 @include lg{
-                    font-size: 45px;
+                    font-size: 35px;
                     font-weight: 700;
                 }
     @include sm3{
         font-size: 30px;
     }
-                    b {
-                        color: white;
-                    }
+                   
                 }
             }
     
@@ -39,9 +46,7 @@
             display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     place-items: center;
-    @include lg{
-        grid-template-columns: 1fr;
-    }
+   
             img {
                 width: 70% !important;
                 height: auto;
@@ -81,6 +86,7 @@
                     margin: 0;
                     padding: 0;
                     font-size: 45px;
+                    letter-spacing: 1px;
     @include sm3{
         font-size: 30px;
     }
