@@ -34,6 +34,9 @@ padding-top: 100px;
                 color: white;
                 font-size: 45px;
                 letter-spacing: 1px;
+                @include mobile{
+                    font-size: 35px;
+                }
                 @include sm3{
                     font-size: 30px;
                 }

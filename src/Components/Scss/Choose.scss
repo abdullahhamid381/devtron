@@ -1,5 +1,7 @@
 @import './media.scss';
 .choose-parent{
+    width: 90%;
+    margin: auto;
     .title{
         h1{
             font-weight: bolder;
@@ -9,7 +11,10 @@
             font-size: 45px;
             margin: 0;
             text-align: center;
-            
+            @include lg{
+                text-align: center;
+                font-size: 35px;
+            }
             span{
     color: rgb(46, 218, 241);
         }
@@ -22,7 +27,10 @@
             color: #555D62;
             text-align: center;
             margin: 10px auto 0 auto ;
-        
+        @include lg{
+            width: 100%;
+            text-align: center;
+        }
         }
     }
     .card-parent{

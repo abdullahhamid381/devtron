@@ -20,6 +20,9 @@ padding: 90px 0 0 0;
         font-size: 45px;
         margin-left: 0px !important;
         letter-spacing: 1px;
+        @include mobile{
+          font-size: 35px;
+        }
   @include sm3{
     font-size: 30px;
   }
